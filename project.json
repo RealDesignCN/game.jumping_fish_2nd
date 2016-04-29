@@ -1,0 +1,60 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "chipmunk"],
+
+    "plugin": {
+        "facebook": {
+            "appId" : "1426774790893461",
+            "xfbml" : true,
+            "version" : "v2.0"
+        }
+    },
+
+    "jsList" : [
+        "src/frame/frame.js",
+        "src/frame/array.js",
+        "src/frame/utils.js",
+        "src/frame/frame_init.js",
+
+        "src/game/game.js",
+        "src/game/enum.js",
+        "src/game/config.js",
+        "src/game/resource.js",
+        "src/game/globals.js",
+
+        "src/game/scene/loader_scene.js",
+        "src/game/scene/my_loader_scene.js",
+        "src/game/scene/welcome_scene.js",
+        "src/game/scene/game_scene.js",
+        "src/game/scene/gameover_scene.js",
+
+        "src/game/layer/my_loader_layer.js",
+        "src/game/layer/welcome_layer.js",
+        "src/game/layer/game_layer.js",
+        "src/game/layer/bg_layer.js",
+        "src/game/layer/cloud_layer.js",
+        "src/game/layer/ui_layer.js",
+        "src/game/layer/hub_layer.js",
+        "src/game/layer/gameover_layer.js",
+
+        "src/game/role/hero.js",
+        "src/game/role/camera.js",
+        "src/game/role/moster.js",
+        "src/game/role/moster_generator.js",
+        "src/game/role/coin.js",
+        "src/game/role/coin_generator.js",
+
+
+        "src/game/game_init.js",
+
+        "src/context.js"
+    ]
+}
