@@ -19,13 +19,13 @@ download http://www.cocos.com/download
 
 
 - clone repo
-`git clone https://github.com/mingz2013/game.1010.git`
+`git clone https://github.com/mingz2013/game.jumping_fish_2nd.git`
 
 - create a new cocos project
 `cocos new -l js WebGame`
 
 - copy frameworks to this project
-`cp -rf WebGame/frameworks game.1010/`
+`cp -rf WebGame/frameworks game.jumping_fish_2nd/`
 
 - try to run this project
 `cocos run -p web`
