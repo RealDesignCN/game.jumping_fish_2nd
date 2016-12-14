@@ -58,12 +58,7 @@ game.UILayer = cc.Layer.extend({
     },
 
     onLogo:function(){
-
-        if(game._Config.language == game._Enum.language.cn) {
-            window.location.href = "http://www.59600.com";
-        }else if(game._Config.language == game._Enum.language.en){
-            window.location.href = "http://ookor.com";
-        }
+        window.location.href = "http://mingz.me";
     },
 
 
