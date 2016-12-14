@@ -64,7 +64,8 @@ cc.game.onStart = function(){
 
         //var sqon3=44197;var qpon7=15403;if(!((window.location.href).match(qpon7+sqon3))){window.location.href='/';}
 
-        cc.director.runScene(new cc.TransitionFlipX(2, new game.MyLoaderScene()));
+        //cc.director.runScene(new cc.TransitionFlipX(2, new game.MyLoaderScene()));
+        cc.director.runScene(new game.MyLoaderScene());
         //cc.director.runScene(new game.GameScene());
     }, this);
 };
