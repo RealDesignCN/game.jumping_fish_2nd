@@ -22,8 +22,7 @@ publish:
 	cocos compile -p web -m release --advanced
 
 github: publish
-	ghp-import -m "make github" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
-	cd $(BASEDIR); git add .; git commit -m "update web site"; git push origin master
+	ghp-import -m "make github" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR) -p
+	git add .; git commit -m "update web site"; git push origin master
 
 .PHONY: help run clean publish github
